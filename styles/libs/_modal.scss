@@ -1,0 +1,97 @@
+html.apfm-open,
+html.apfm-open> body {
+  height: 100vh;
+  width: 100vw;
+}
+
+html.apfm-open> body {
+  overflow: hidden;
+}
+
+.apfm-container {
+  opacity: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.apfm-container.apfm-opening,
+.apfm-container.apfrm-closing {
+  visibility: visible;
+  z-index: 99999;
+}
+
+.apfm-container.apfm-open {
+  opacity: 1;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  visibility: visible;
+  z-index: 99999;
+}
+
+.apfm-container .apfm-wrapper {
+  position: relative;
+}
+
+.apfm-container .apfm-close-button {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  // height: 50px;
+  // width: 50px;
+  z-index: 1000;
+  /* No blue selection when clicking on the cross */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+// .apfm-container .apfm-close-button:before, .apfm-container .apfm-close-button:after {
+//   background-color: #bbb;
+//   content: '';
+//   position: absolute;
+//   top: 50%;
+//   left: 0;
+//   -webkit-transform: rotate(45deg);
+//   -moz-transform: rotate(45deg);
+//   -ms-transform: rotate(45deg);
+//   -o-transform: rotate(45deg);
+//   transform: rotate(45deg);
+//   -webkit-transition: background-color 0.2s;
+//   -moz-transition: background-color 0.2s;
+//   transition: background-color 0.2s;
+//   height: 2px;
+//   width: 100%;
+// }
+// .apfm-container .apfm-close-button:after {
+//   transform: rotate(-45deg);
+// }
+// .apfm-container .apfm-close-button:hover:before, .apfm-container .apfm-close-button:hover:after, .apfm-container .apfm-close-button:focus:before, .apfm-container .apfm-close-button:focus:after {
+//   background-color: #555;
+// }
+.apfm-clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}

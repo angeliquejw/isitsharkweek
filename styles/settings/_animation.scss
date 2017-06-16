@@ -1,0 +1,15 @@
+@include keyframes(fadesin) {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    @include animation(fadesin ease-in 1);
+    @include animation-fill-mode(forwards);
+    @include animation-duration(3s);
+}

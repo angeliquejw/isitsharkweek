@@ -1,0 +1,39 @@
+section#schedule {
+	margin-bottom: 60px;
+	padding: 18px;
+	.heading {
+		margin-bottom: 72px;
+	}
+	.tv {
+		@media only screen and (max-width: $bp2 - 1) {
+			margin: 0 auto;
+			&.blank {
+				display: none;
+			}
+		}
+		@media only screen and (min-width: $bp2) {
+			&:before,
+			&:after {
+				top: -22px;
+			}
+			&.blank {
+				opacity: 0.5;
+			}
+			.box {
+				&:before,
+				&:after {
+					top: -40px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: $bp2) {
+		.row {
+			@include display(flex);
+			@include justify-content(space-around);
+		}
+	}
+	@media only screen and (min-width:1260px) {
+		width: 100%;
+	}
+}

@@ -1,0 +1,55 @@
+#donate {
+    padding: 0 18px;
+    .heading {
+        margin-bottom: 18px;
+    }
+    .embedWrapper {
+        margin: 0 auto;
+    }
+    .embed-finathon {
+        background: #00d5f3;
+        border: 3px solid #00d5f3;
+        border-radius: 10px;
+        width: 320px;
+        max-width: 100%;
+        a {
+            display: block;
+        }
+        img {
+            @include size(100% auto);
+        }
+    }
+    ul {
+        background: $purple;
+        display: block;
+        margin: 30px auto 0;
+        padding: 18px 9px;
+        width: 80%;
+        li {
+            margin-bottom: 9px;
+            text-align: center;
+        }
+        a {
+            color: $aqua;
+        }
+    }
+    @media only screen and (min-width:$bp1) {
+        .embedWrapper,
+        ul {
+            display: inline-block;
+            vertical-align: top;
+            width: calc((100% - 30px) / 2);
+        }
+        .embed-finathon {
+            max-width: 350px;
+        }
+        ul {
+            margin: 0 0 0 18px;
+            max-width: 450px;
+        }
+    }
+    @media only screen and (min-width:860px) {
+        padding-right: 36px;
+        padding-left: 36px;
+    }
+}

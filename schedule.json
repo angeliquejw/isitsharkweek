@@ -1,0 +1,768 @@
+{
+  "listings": {
+    "listing": [
+      {
+        "title": "Shark Week Sharktacular 2016",
+        "scheduled": "2016-06-19T22:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shark Week Sharktacular 2016",
+        "scheduled": "2016-06-26T09:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark Week's Impossible Shot",
+        "scheduled": "2016-06-26T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Air Jaws: Countdown to Shark Week 2013",
+        "scheduled": "2016-06-26T11:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Sharkageddon",
+        "scheduled": "2016-06-26T12:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "I Escaped Jaws II",
+        "scheduled": "2016-06-26T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Zombie Sharks",
+        "scheduled": "2016-06-26T14:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-26T15:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Air Jaws: Fin of Fury",
+        "scheduled": "2016-06-26T16:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Alien Sharks: Return to the Abyss",
+        "scheduled": "2016-06-26T17:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-26T18:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-26T19:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Tiger Beach",
+        "scheduled": "2016-06-26T20:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Return of the Monster Mako",
+        "scheduled": "2016-06-26T21:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Isle of Jaws",
+        "scheduled": "2016-06-26T22:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-26T23:01",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-26T23:01",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Return of the Monster Mako",
+        "scheduled": "2016-06-26T23:31",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Isle of Jaws",
+        "scheduled": "2016-06-27T00:31",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Tiger Beach",
+        "scheduled": "2016-06-27T01:32",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-27T02:30",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "How Jaws Changed The World",
+        "scheduled": "2016-06-27T09:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Fight",
+        "scheduled": "2016-06-27T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Jaws Comes Home",
+        "scheduled": "2016-06-27T11:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Great White Serial Killer",
+        "scheduled": "2016-06-27T12:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Jaws Strikes Back",
+        "scheduled": "2016-06-27T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-27T14:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Tiger Beach",
+        "scheduled": "2016-06-27T15:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Ninja Sharks",
+        "scheduled": "2016-06-27T16:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Monster Hammerhead",
+        "scheduled": "2016-06-27T17:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-27T18:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Isle of Jaws: Sharkopedia Edition",
+        "scheduled": "2016-06-27T19:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shallow Water Invasion",
+        "scheduled": "2016-06-27T20:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jaws of the Deep",
+        "scheduled": "2016-06-27T21:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Sharks Among Us",
+        "scheduled": "2016-06-27T22:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jaws of the Deep",
+        "scheduled": "2016-06-27T23:31",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Sharks Among Us",
+        "scheduled": "2016-06-28T00:32",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shallow Water Invasion",
+        "scheduled": "2016-06-28T01:32",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-28T02:30",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Day of the Shark II",
+        "scheduled": "2016-06-28T09:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark City",
+        "scheduled": "2016-06-28T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Top Ten Sharkdown",
+        "scheduled": "2016-06-28T11:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shallow Water Invasion",
+        "scheduled": "2016-06-28T12:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Air Jaws: Fin of Fury",
+        "scheduled": "2016-06-28T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Alien Sharks",
+        "scheduled": "2016-06-28T14:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Alien Sharks: Return to the Abyss",
+        "scheduled": "2016-06-28T15:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week Marathon",
+        "scheduled": "2016-06-28T16:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Return of the Monster Mako",
+        "scheduled": "2016-06-28T19:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jaws of the Deep: Sharkopedia Edition",
+        "scheduled": "2016-06-28T20:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Wrath of a Great White Serial Killer",
+        "scheduled": "2016-06-28T21:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Air Jaws: Night Stalker",
+        "scheduled": "2016-06-28T22:01",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-28T23:01",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Wrath of a Great White Serial Killer",
+        "scheduled": "2016-06-28T23:31",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Air Jaws: Night Stalker",
+        "scheduled": "2016-06-29T00:32",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jaws of the Deep",
+        "scheduled": "2016-06-29T01:32",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-29T02:30",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Feeding Frenzy",
+        "scheduled": "2016-06-29T09:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Rogue Sharks",
+        "scheduled": "2016-06-29T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Sharks of the Shadowland",
+        "scheduled": "2016-06-29T11:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Spawn of Jaws: The Birth",
+        "scheduled": "2016-06-29T12:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Voodoo Sharks",
+        "scheduled": "2016-06-29T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Zombie Sharks",
+        "scheduled": "2016-06-29T14:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Return of the Monster Mako",
+        "scheduled": "2016-06-29T15:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Lair of the Mega Shark",
+        "scheduled": "2016-06-29T16:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-29T17:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Air Jaws: Night Stalker",
+        "scheduled": "2016-06-29T18:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shallow Water Invasion",
+        "scheduled": "2016-06-29T19:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Wrath of a Great White Serial Killer: Sharkopedia Edition",
+        "scheduled": "2016-06-29T20:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Deadliest Sharks",
+        "scheduled": "2016-06-29T21:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Sharks vs. Dolphins: Face Off",
+        "scheduled": "2016-06-29T22:01",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-29T23:01",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Deadliest Sharks",
+        "scheduled": "2016-06-29T23:31",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Sharks vs. Dolphins: Face Off",
+        "scheduled": "2016-06-30T00:32",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Wrath of a Great White Serial Killer",
+        "scheduled": "2016-06-30T01:32",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-30T02:30",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Deadly Stripes: Tiger Sharks",
+        "scheduled": "2016-06-30T09:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Great White Gauntlet",
+        "scheduled": "2016-06-30T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Great White Matrix",
+        "scheduled": "2016-06-30T11:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-30T12:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Sharkageddon",
+        "scheduled": "2016-06-30T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Deadliest Sharks",
+        "scheduled": "2016-06-30T14:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jaws of the Deep",
+        "scheduled": "2016-06-30T15:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark Planet",
+        "scheduled": "2016-06-30T16:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-06-30T18:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Sharks Among Us",
+        "scheduled": "2016-06-30T19:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Tiger Beach: Sharkopedia Edition",
+        "scheduled": "2016-06-30T20:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Nuclear Sharks",
+        "scheduled": "2016-06-30T21:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Jungle Shark",
+        "scheduled": "2016-06-30T22:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-06-30T23:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Nuclear Sharks",
+        "scheduled": "2016-06-30T23:30",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jungle Shark",
+        "scheduled": "2016-07-01T00:30",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Tiger Beach",
+        "scheduled": "2016-07-01T01:30",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark After Dark",
+        "scheduled": "2016-07-01T02:30",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Alley: Legend of Dynamite",
+        "scheduled": "2016-07-01T09:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Ocean of Fear",
+        "scheduled": "2016-07-01T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Wrath of a Great White Serial Killer",
+        "scheduled": "2016-07-01T11:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Air Jaws Apocalypse",
+        "scheduled": "2016-07-01T12:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Great White Highway",
+        "scheduled": "2016-07-01T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Monster Hammerhead",
+        "scheduled": "2016-07-01T14:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Isle of Jaws",
+        "scheduled": "2016-07-01T15:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark Island",
+        "scheduled": "2016-07-01T16:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-07-01T17:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Nuclear Sharks",
+        "scheduled": "2016-07-01T18:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Sharks vs. Dolphins: Face Off",
+        "scheduled": "2016-07-01T19:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Deadliest Sharks: Sharkopedia Edition",
+        "scheduled": "2016-07-01T20:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shark Bait",
+        "scheduled": "2016-07-01T21:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Blue Serengeti",
+        "scheduled": "2016-07-01T22:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shark Bait",
+        "scheduled": "2016-07-01T23:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Deadliest Sharks",
+        "scheduled": "2016-07-02T01:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Sharks vs. Dolphins: Face Off",
+        "scheduled": "2016-07-02T02:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "I Escaped Jaws",
+        "scheduled": "2016-07-02T09:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Ninja Sharks",
+        "scheduled": "2016-07-02T10:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Shark Week",
+        "scheduled": "2016-07-02T11:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Alien Sharks",
+        "scheduled": "2016-07-02T12:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Blue Serengeti",
+        "scheduled": "2016-07-02T12:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Alien Sharks: Return to the Abyss",
+        "scheduled": "2016-07-02T13:00",
+        "premiere": false,
+        "new": false
+      },
+      {
+        "title": "Air Jaws: Night Stalker",
+        "scheduled": "2016-07-02T14:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Sharks Among Us",
+        "scheduled": "2016-07-02T15:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Shark Bait",
+        "scheduled": "2016-07-02T16:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Deadliest Sharks",
+        "scheduled": "2016-07-02T17:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Isle of Jaws",
+        "scheduled": "2016-07-02T18:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jaws of the Deep",
+        "scheduled": "2016-07-02T19:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "Jungle Shark: Sharkopedia Edition",
+        "scheduled": "2016-07-02T20:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Sharksanity 3",
+        "scheduled": "2016-07-02T21:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Shallow Water Invasion: Sharkopedia Edition",
+        "scheduled": "2016-07-02T22:00",
+        "premiere": true,
+        "new": true
+      },
+      {
+        "title": "Sharksanity 3",
+        "scheduled": "2016-07-02T23:00",
+        "premiere": false,
+        "new": true
+      },
+      {
+        "title": "The Killing Games",
+        "scheduled": "2016-07-03T21:00",
+        "premiere": true,
+        "new": true
+      }
+    ]
+  }
+}

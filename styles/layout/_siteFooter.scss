@@ -1,0 +1,73 @@
+.siteFooter {
+    color: $grey;
+    font-family: $font-small;
+    @include rem(font-size, 11px);
+    margin: 90px auto 0;
+    padding: 0 9px 9px;
+    max-width: 1300px;
+    > a {
+        display: block;
+        text-align: right;
+    }
+    a {
+        color: $magenta;
+        @include hover-state {
+            color: $pink;
+        }
+    }
+    ul {
+        margin: 18px 0 9px;
+        @media only screen and (min-width: 480px) and (max-width: $bp3 - 1) {
+            li {
+                display: inline;
+                padding: 1px 0 3px;
+                + li {
+                    border-left: 3px solid rgba(white, 0.25);
+                    margin-left: 9px;
+                    padding-left: 9px;
+                }
+            }
+        }
+        @media only screen and (min-width:960px) {
+            margin-top: 0;
+        }
+    }
+    .disclaimer {
+        @include rem(font-size, 9px);
+        text-align: justify;
+        text-transform: uppercase;
+    }
+    p,
+    ul {
+        max-width: 960px;
+    }
+    @media only screen and (min-width:$bp3) {
+        > a {
+            margin-bottom: 9px;
+        }
+        p,
+        ul {
+            display: inline-block;
+            vertical-align: top;
+        }
+        ul {
+            padding-right: 30px;
+            width: 24%;
+            li {
+                &:nth-last-child(2),
+                &:last-child {
+                    display: inline;
+                }
+                &:last-child {
+                    border-left: 3px solid rgba(white, 0.25);
+                    display: inline;
+                    margin-left: 9px;
+                    padding-left: 9px;
+                }
+            }
+        }
+        p {
+            width: 75%;
+        }
+    }
+}
