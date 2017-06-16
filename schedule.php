@@ -4,7 +4,7 @@
     <div class="tv blank"><div class="box"></div></div>
     <div id="open-listings" class="tv">
       <div class="box">
-        <p>What's On Shark Week 2016</p>
+        <p>What's On Shark Week 2017</p>
       </div>
     </div>
     <div class="tv blank"><div class="box"></div></div>
