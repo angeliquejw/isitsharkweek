@@ -39,8 +39,8 @@
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
       <![endif]-->
       <?php
-        $SWstart = '2016-06-26';
-        $SWend = '2016-07-03';
+        $SWstart = '2017-07-23';
+        $SWend = '2017-06-30';
         if(strtotime('now') < strtotime($SWstart)){
           $status = 'early';
         } elseif(strtotime('now') > strtotime($SWend)){
