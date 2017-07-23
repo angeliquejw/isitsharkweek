@@ -1,0 +1,26 @@
+{
+  "name": "isitsharkweek",
+  "version": "1.0.0",
+  "description": "http://isitsharkweek.com/ © Angelique Weger",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeliquejw/isitsharkweek.git"
+  },
+  "author": "Angelique Weger",
+  "license": "CC-BY-NC-SA-4.0ISC",
+  "homepage": "https://github.com/angeliquejw/isitsharkweek#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}
