@@ -10,7 +10,7 @@
 	opacity: 0.8;
 	position: fixed;
 	text-align: center;
-	@include transition(all 0.7s);
+	transition: all 0.7s;
 	vertical-align: middle;
 	@include size(63px);
 	&:before {
