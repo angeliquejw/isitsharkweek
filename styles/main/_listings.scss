@@ -21,7 +21,7 @@
         td[data-sig*=nty] {
             &:after {
                 background: url(/img/listing-new.png) no-repeat;
-                @include size(113px 56px);
+                @include size(137px 41px);
             }
         }
         @media only screen and (max-width: 499px) {
@@ -74,7 +74,7 @@
                             font-weight: normal;
                         }
                     }
-                    ~ [data-day=#{nth($days, $i)}] {
+                    ~[data-day=#{nth($days, $i)}] {
                         td[data-type=day] {
                             display: none;
                         }

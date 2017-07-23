@@ -29,7 +29,7 @@ aside {
 	#share {
 		width: 200px;
 		.socialWrapper {
-			li+ li {
+			li+li {
 				margin-top: 18px;
 				margin-left: 0;
 			}
@@ -53,9 +53,9 @@ aside {
 
 @media only screen and (min-width:$bp3) {
 	main {
-		@include display(flex);
-		@include flex-wrap(wrap);
-		@include justify-content(space-between);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		margin: 0 auto;
 		max-width: 1300px;
 	}
@@ -71,7 +71,7 @@ aside {
 		background: $grass;
 		margin: 0;
 		max-width: 600px;
-		> ul {
+		>ul {
 			padding: 0;
 			width: 100%;
 		}
@@ -85,7 +85,7 @@ aside {
 			width: 100%;
 		}
 		.embedWrapper {
-			+ .embedWrapper {
+			+.embedWrapper {
 				margin-top: 18px;
 				margin-left: 0;
 			}

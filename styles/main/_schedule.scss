@@ -29,8 +29,8 @@ section#schedule {
 	}
 	@media only screen and (min-width: $bp2) {
 		.row {
-			@include display(flex);
-			@include justify-content(space-around);
+			display: flex;
+			justify-content: space-around;
 		}
 	}
 	@media only screen and (min-width:1260px) {

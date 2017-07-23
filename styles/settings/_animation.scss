@@ -1,4 +1,4 @@
-@include keyframes(fadesin) {
+@keyframes fadesin {
     from {
         opacity: 0;
     }
@@ -8,8 +8,8 @@
 }
 
 .fadeIn {
+    animation: fadesin ease-in 1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
     opacity: 0;
-    @include animation(fadesin ease-in 1);
-    @include animation-fill-mode(forwards);
-    @include animation-duration(3s);
 }
