@@ -24,7 +24,7 @@
   <nav id="content" class="siteNav optionsList fadeIn">
     <ul>
       <li><a href="#share">Share The Countdown</a></li>
-      <li><a href="#schedule">Check out the 2016 Shark Week Schedule</a></li>
+      <li><a href="#schedule">Check out the 2017 Shark Week Schedule</a></li>
       <li><a href="#learn">Learn About Sharks</a></li>
       <li><a href="#donate">Donate to a Conservation Charity</a></li>
     </ul>

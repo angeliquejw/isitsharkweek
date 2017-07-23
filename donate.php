@@ -1,10 +1,5 @@
 <section id="donate">
   <h3 class="heading">Donate</h3>
-  <div class="embedWrapper embed-finathon">
-    <a href="http://finathon.org/isitsharkweek" target="_blank" title="Donate to the Finathon">
-      <img src="http://isitsharkweek.com/2016/img/finathon.png" alt="Donate to the Finathon" />
-    </a>
-  </div>
   <ul>
     <li><a href="http://na.oceana.org/en/our-work/protect-marine-wildlife/sharks/overview" target="_blank">Oceana</a></li>
     <li><a href="http://www.sharks.org/" target="_blank">Shark Research Institute</a></li>

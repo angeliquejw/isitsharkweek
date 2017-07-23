@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>IS IT SHARK WEEK? #SHARKWEEK 2016</title>
-  <meta name="description" content="Information about Shark Week, including the 2016 Shark Week schedule from the Discovery Channel.">
-  <meta name="keywords" content="shark week, shark week schedule, shark week 2016 schedule, shark week 2016, shark week tv, is it shark week, when is shark week, shark, sharks">
+  <title>IS IT SHARK WEEK? #SHARKWEEK 2017</title>
+  <meta name="description" content="Information about Shark Week, including the 2017 Shark Week schedule from the Discovery Channel.">
+  <meta name="keywords" content="shark week, shark week schedule, shark week 2017 schedule, shark week 2017, shark week tv, is it shark week, when is shark week, shark, sharks">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="IS IT SHARK WEEK?">
   <meta property="og:description" content="You know you've asked yourself this uberimportant question: OMG IS IT SHARK WEEK? We have the answer. Never miss a moment of SHARK WEEK again.">
@@ -37,8 +37,8 @@
 </head>
 <?php
       date_default_timezone_set('America/New_York');
-      $SWstart = '2016-06-26';
-      $SWend = '2016-07-03';
+      $SWstart = '2017-07-23';
+      $SWend = '2017-07-30';
       if(strtotime('now') < strtotime($SWstart)){
         $status = 'early';
       } elseif(strtotime('now') > strtotime($SWend)){
