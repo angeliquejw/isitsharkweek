@@ -38,7 +38,7 @@
 <?php
       date_default_timezone_set('America/New_York');
       $SWstart = '2017-07-23';
-      $SWend = '2017-06-30';
+      $SWend = '2017-07-30';
       if(strtotime('now') < strtotime($SWstart)){
         $status = 'early';
       } elseif(strtotime('now') > strtotime($SWend)){
