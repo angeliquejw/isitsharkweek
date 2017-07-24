@@ -9,6 +9,10 @@
   $jsondata = file_get_contents('schedule.json');
   $data = json_decode($jsondata, true);
   $listings = $data['listings']['listing'];
+  $now = strtotime('now');
+  $now_time = date('g:i a', $now);
+  $approx_time = date('g:i a', strtotime('-59 minutes', strtotime($now_time)));
+  $first = true;
 
   usort($listings, function($a, $b) {
     return ($a['scheduled'] < $b['scheduled']) ? -1 : 1;
@@ -22,16 +26,19 @@
     $listing_day = date('D', $listing_datetime);
     $listing_date = date('M j', $listing_datetime);
     $listing_time = date('g:i a', $listing_datetime);
-		if($listing_datetime > strtotime('now')){
-	    echo '<tr data-day="' .$listing_day. '">';
-	    echo '<td data-type="day"><strong>'.$listing_day.'</strong> '.$listing_date.'</td><td data-type="time">'.$listing_time.' EST</td><td data-type="title">'.$listing_title.'</td>';
+    $sig1 = ($listing_prem == true) ? 'prem' : '';
+    $sig2 = ($listing_new == true) ? 'nty' : '';
+    $tr = '<tr data-day="' .$listing_day. '"><td data-type="day"><strong>'.$listing_day.'</strong> '.$listing_date.'</td><td data-type="time">'.$listing_time.' EST</td><td data-type="title">'.$listing_title.'</td><td data-sig="' .$sig1. ' ' .$sig2. '"></td></tr>';
 
-			$sig1 = ($listing_prem == true) ? 'prem' : '';
-			$sig2 = ($listing_new == true) ? 'nty' : '';
-
-	    echo '<td data-sig="' .$sig1. ' ' .$sig2. '"></td>';
-	    echo '</tr>';
-		}
+    if ($listing_time >= $approx_time) {
+        if ($first) {
+          echo $tr;
+          $first = false;
+        }
+    }
+    if ($listing_datetime > $now){
+      echo $tr;
+    }
   }
 	?>
 	</tbody>
