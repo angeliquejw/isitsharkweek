@@ -8,9 +8,9 @@
       <?php
         if($status == 'early'){
           if($daystil > 1) {
-            $twittershare = 'http://twitter.com/intent/tweet?text='.$daystil.'+Days+Until+%23SharkWeek+2019&url=http:%2F%2Fisitsharkweek.com'; 
+            $twittershare = 'http://twitter.com/intent/tweet?text='.$daystil.'+Days+Until+%23SharkWeek+2021&url=http:%2F%2Fisitsharkweek.com'; 
           } else {
-            $twittershare = 'http://twitter.com/intent/tweet?text='.$daystil.'+Day+Until+%23SharkWeek+2019&url=http:%2F%2Fisitsharkweek.com'; 
+            $twittershare = 'http://twitter.com/intent/tweet?text='.$daystil.'+Day+Until+%23SharkWeek+2021&url=http:%2F%2Fisitsharkweek.com'; 
           }
         } else {
           $twittershare = 'http://twitter.com/intent/tweet?text=When+Is+%23SharkWeek&url=http:%2F%2Fisitsharkweek.com'; 
