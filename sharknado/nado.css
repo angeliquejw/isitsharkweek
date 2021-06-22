@@ -1,0 +1,312 @@
+/* responsive breakpoints */
+/* palette is Mysteries Oceanic via ColourLovers:http://www.colourlovers.com/palette/1620298/Mysteries_Oceanic */
+/* line 16, nado.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, nado.scss */
+html {
+  font-size: 10px;
+}
+
+/* line 18, nado.scss */
+body {
+  background-color: #364c5e;
+  color: #05172a;
+  font-family: 'Alegreya', serif;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 28, nado.scss */
+#topnav {
+  background-color: #0e3c6e;
+  font-family: 'Alegreya SC', serif;
+  font-size: 2rem;
+  padding: .5rem;
+}
+/* line 33, nado.scss */
+#topnav a:link, #topnav a:visited, #topnav a:active {
+  color: white;
+  text-decoration: none;
+}
+/* line 34, nado.scss */
+#topnav a:hover {
+  color: #14a2b8;
+  text-decoration: none;
+}
+
+/* line 36, nado.scss */
+article {
+  background-color: #e6e6e6;
+  border: 1px solid #0e3c6e;
+  margin: 0 auto;
+  max-width: 770px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 36, nado.scss */
+  article {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 36, nado.scss */
+  article {
+    width: 90%;
+  }
+}
+
+/* line 44, nado.scss */
+img {
+  height: auto;
+  width: 100%;
+}
+
+/* line 48, nado.scss */
+h1, h2 {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 49, nado.scss */
+  h1 {
+    font-size: 2.8rem;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 49, nado.scss */
+  h1 {
+    font-size: 4.8rem;
+    padding: 3rem 2rem;
+  }
+}
+
+/* line 53, nado.scss */
+h2 {
+  background-color: #0e3c6e;
+  color: white;
+  display: block;
+  font-family: 'Alegreya SC', serif;
+  margin: 0;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  /* line 53, nado.scss */
+  h2 {
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+    padding: 2.8rem 1rem;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 53, nado.scss */
+  h2 {
+    font-size: 4.2rem;
+    line-height: 5.6rem;
+    padding: 2.8rem 2rem;
+  }
+}
+
+/* line 63, nado.scss */
+h1, h2, p {
+  margin: 0;
+}
+
+/* line 64, nado.scss */
+a:link, a:visited {
+  color: #0c6573;
+}
+
+/* line 65, nado.scss */
+a:hover, a:active {
+  color: #14a2b8;
+}
+
+/* line 66, nado.scss */
+p, li, blockquote {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+/* line 67, nado.scss */
+p, ul, ol {
+  display: block;
+}
+@media only screen and (max-width: 480px) {
+  /* line 67, nado.scss */
+  p, ul, ol {
+    padding: 0 1rem 1rem;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 67, nado.scss */
+  p, ul, ol {
+    padding: 0 2rem 1rem;
+  }
+}
+
+/* line 72, nado.scss */
+p em {
+  color: #0e3c6e;
+  font-style: italic;
+  font-weight: 700;
+}
+@media only screen and (max-width: 480px) {
+  /* line 72, nado.scss */
+  p em {
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 72, nado.scss */
+  p em {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+  }
+}
+
+/* line 79, nado.scss */
+ul, ol {
+  margin: 0 0 0 4rem;
+}
+
+/* line 80, nado.scss */
+.interview {
+  background-color: #9bb3c5;
+  border-left: 6px solid #0e3c6e;
+}
+@media only screen and (max-width: 480px) {
+  /* line 80, nado.scss */
+  .interview {
+    margin: 0;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 80, nado.scss */
+  .interview {
+    margin: 0 2rem;
+    padding: 2rem;
+  }
+}
+
+/* line 86, nado.scss */
+.tweets {
+  text-align: center;
+  width: 100%;
+}
+/* line 89, nado.scss */
+.tweets:before, .tweets:after {
+  content: " ";
+  display: table;
+}
+/* line 90, nado.scss */
+.tweets:after {
+  clear: both;
+}
+@media only screen and (max-width: 480px) {
+  /* line 91, nado.scss */
+  .tweets.nocol .twitter-tweet-rendered, .tweets.col2 .twitter-tweet-rendered, .tweets.col3 .twitter-tweet-rendered {
+    margin: 1rem auto!important;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 94, nado.scss */
+  .tweets.nocol .twitter-tweet-rendered {
+    margin: 1rem auto!important;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 97, nado.scss */
+  .tweets.col2 .twitter-tweet-rendered {
+    float: left;
+    margin: 1rem 1.5rem !important;
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 100, nado.scss */
+  .tweets.col3 .twitter-tweet-rendered {
+    float: left;
+    margin: 1rem 1.2rem !important;
+    width: 30%;
+  }
+}
+
+/* line 104, nado.scss */
+.sharethis {
+  float: right;
+  margin: 1em;
+}
+/* line 107, nado.scss */
+.sharethis:before, .sharethis:after {
+  content: " ";
+  display: table;
+}
+/* line 108, nado.scss */
+.sharethis:after {
+  clear: both;
+}
+
+/* line 110, nado.scss */
+#disqus_thread {
+  padding: 2rem;
+}
+
+/* line 111, nado.scss */
+section {
+  margin: 0;
+  padding: 0 0 3rem;
+}
+
+/* line 115, nado.scss */
+#opening, #closing {
+  background-color: #1a1a1a;
+  color: white;
+  padding-bottom: 5.5rem;
+}
+/* line 119, nado.scss */
+#opening a:link, #opening a:visited, #closing a:link, #closing a:visited {
+  color: #d9d9d9;
+}
+/* line 120, nado.scss */
+#opening a:hover, #opening a:active, #closing a:hover, #closing a:active {
+  color: #14a2b8;
+}
+@media only screen and (min-width: 481px) {
+  /* line 121, nado.scss */
+  #opening p, #opening li, #closing p, #closing li {
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+  }
+}
+
+/* line 123, nado.scss */
+footer {
+  color: #a1c9f3;
+  font-size: .8rem;
+  margin: 3rem 0 0;
+  text-align: right;
+}
+/* line 128, nado.scss */
+footer a:link, footer a:visited {
+  color: #d9d9d9;
+}
+/* line 129, nado.scss */
+footer a:hover, footer a:active {
+  color: #14a2b8;
+}
+/* line 130, nado.scss */
+footer hr, footer #disclaimer {
+  display: none;
+}

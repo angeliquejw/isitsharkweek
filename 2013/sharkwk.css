@@ -1,0 +1,223 @@
+/* ISITSHARKWEEK.COM STYLES */
+/*
+* TABLE OF CONTENTS
+* - Reset
+* - Layout
+* - Document Colors
+* - Header
+* - Content
+* - Sidebars
+* - Footer
+*/
+/* RESET
+* --------------------------------------------------------------------------*/
+@import url('reset.css');
+/* LAYOUT
+* --------------------------------------------------------------------------*/
+#pagewrap {
+   max-width: 1800px;
+   overflow: hidden;
+}
+header {
+   height: 530px;
+   width: 100%;
+}
+.columns {
+   float: left;
+   position:relative;
+}
+#content {
+   margin-bottom:2%;
+   width: 650px;
+   }
+aside {
+   margin: 0 1% 2%;
+   width: 300px;
+}
+aside#banners { width: 180px }
+footer {
+   clear: both;
+   width: 98%;
+}
+/* for 1280px or less */
+@media screen and (max-width: 1280px) {
+   aside { margin: 0 1% 1% }
+   aside#tweets { max-width:265px }
+}
+/* for 1024px or less */
+@media screen and (max-width: 1024px) {
+   #content { width: 60% }
+   aside { width: 30% }
+}
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+    #content {
+       float: none;
+       width: auto;
+    }
+   aside { width: 48% }
+   aside#flickr { clear:left }
+}
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+    #pagewrap { width: 94% }
+    #content {
+       float: none;
+       width: auto;
+    }
+    aside {
+       float: none;
+       width: auto;
+    }
+}
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+    #pagewrap {
+      max-width: 480px;
+      overflow: visible;
+      }
+}
+/* DOCUMENT COLORS
+--------------------------------------------------------------------------
+* background blue #002040
+* neutral grey #404040
+* darker blue #000830
+* lighter blue #005E75
+* lightest bluegreen #82c1b7
+* bluegreen #008082
+* brightest blue #00649C
+*/
+/* HEADER
+-------------------------------------------------------------------------- */
+body {
+   background: #002040;
+   font-family: Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+header {
+   background: #fff url(img/wavewfin.jpg) bottom center no-repeat;
+   padding-top: 20%;
+   text-align: center;
+}
+#answer { margin-top: -15% }
+header h1 {
+   color: #002040;
+   font-size: 6.25rem;
+   font-weight: bold;
+   line-height: 3.5rem;
+   text-transform: uppercase;
+}
+header h2 { font-size: 2.5rem }
+header p { }
+div#addthis {
+   position: absolute;
+   top: 1%;
+   right: 1%;
+}
+/* CONTENT
+-------------------------------------------------------------------------- */
+a:link { color: #008082 }
+a:visited { color: #404040 }
+a:hover {
+   border-bottom: 1px dashed #00649C;
+   color: #00649C;
+   text-decoration: none;
+}
+a:active { color: #008082 }
+#content {
+   background: #E6E9EC;
+   padding: 2% 4%;
+}
+#content h2 {
+   color: #00649C;
+   font-size: 2rem;
+   line-height: 2.5rem;
+   padding: 2rem 0 1rem;
+   text-transform: uppercase;
+}
+ul.dots {
+   line-height: 2rem;
+   list-style: circle;
+   margin-left: 1.5rem;
+}
+#menu1 li {
+   display: inline;
+   text-transform: uppercase;
+}
+#menu1 li a {
+   background: #00649C;
+   border-right: 1px solid #E6E9EC;
+   border-bottom: none;
+   color: #000;
+   float: left;
+   font-weight: bold;
+   padding: 1% 2%;
+   text-decoration: none;
+}
+#menu1 li.active a { background: #eef }
+.content {
+   clear: both;
+   background: #eef;
+   border: 1px solid #404040;
+   border-top: none;
+   border-left: none;
+   float: left;
+   padding: 2%;
+   width: 65%;
+}
+table.schedule { width: 100% }
+th {
+   background: #00649C;
+   color: #fff;
+   padding: 1%;
+   text-transform: uppercase;
+}
+tr { font-weight: bold }
+td {
+   padding: .5rem 0;
+   width: 70%;
+}
+td.time { width: 30% }
+td p {
+   font-weight: normal;
+   font-size: .9rem;
+}
+tr:hover { background: #fff }
+span.note {
+   color: #00649C;
+   display: inline;
+   font-size: 1.5rem;
+   vertical-align: middle;
+}
+/* SIDEBARS
+-------------------------------------------------------------------------- */
+aside {
+   text-align: center;
+}
+aside#flickr {
+	background-color: #008082;
+	color: #E6E9EC;
+}
+aside#flickr p a {
+	color: #3993ff;
+	}
+
+ /* for 1024px or less */
+@media screen and (max-width: 1024px) {
+.content { width:90%; }
+}
+ /* for 700px or less */
+@media screen and (max-width: 700px) {
+header h1 {	font-size: 4.25rem; line-height:2rem; }
+.content { width:90%; }
+}
+/* FOOTER
+-------------------------------------------------------------------------- */
+footer {
+	color:#404040;
+   padding: 1%;
+	text-align:right;
+	}
+footer p#disclaimer {
+	font-size:.8rem;
+	text-align:center;
+	}

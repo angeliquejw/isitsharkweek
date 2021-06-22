@@ -1,0 +1,185 @@
+/* ISITSHARKWEEK.COM STYLES */
+
+/* TABLE OF CONTENTS
+- Reset
+- Layout
+- Document Colors
+- Header
+- Content
+- Sidebars
+- Footer
+*/
+
+/* RESET
+    Based on work by Eric Meyer (v1.0 | 20080212):
+    http://meyerweb.com/eric/tools/css/reset/
+-------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, a, abbr, em, font, img, ins, strong, b, u, i, center, dl, dt, dd, ol, ul, li, table, tbody, tfoot, thead, tr, th, td {
+	background:transparent;
+	border:0;
+	font-size:100.01%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+	}
+body { line-height:1.4em; }
+ol, ul { list-style:none; }
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+.center {text-align:center;}
+
+/* LAYOUT
+--------------------------------------------------------------------------*/
+body {
+	min-width:1100px;         /* 2 x (LC fullwidth + CC padding) + RC fullwidth */
+	}
+#wrapper {
+	}
+#header {
+	}
+#container {
+	margin-top:-100px;
+	padding-left:320px;      /* LC fullwidth */
+	padding-right:360px;     /* RC fullwidth + CC padding */
+	}
+#container .column {
+	position:relative;
+	float:left;
+	}
+#center {
+	padding:10px 20px;       /* CC padding */
+	width:100%;
+	}
+#left {
+	width:300px;             /* LC width */
+	padding:0 10px;          /* LC padding */
+	right:360px;             /* LC fullwidth + CC padding */
+	margin-left:-100%;
+	}
+#right {
+	width:300px;             /* RC width */
+	padding:0 10px;          /* RC padding */
+	margin-right:-100%;
+	}
+#footer { clear:both; }	
+/* IE FIX */
+* html #left { left:150px;  /* RC fullwidth */ }
+
+/* DOCUMENT COLORS
+--------------------------------------------------------------------------
+* background blue #002040
+* neutral grey #404040
+* darker blue #000830
+* lighter blue #005E75
+* bluegreen #008082
+* brightest blue #00649C
+*/
+
+/* HEADER
+-------------------------------------------------------------------------- */
+body {
+	background:#002040;
+	font-family:Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	}
+#header {
+	background:#fff url(img/wavewfins.png) bottom center no-repeat;
+	height:600px;
+	padding:100px 0;
+	}
+#header h1 {
+	color:#002040;
+	font-size:5.5em;
+	font-weight:bold;
+	line-height:3em;
+	text-transform:uppercase;
+	}
+#header p {
+	margin-top:-80px;
+	}
+	
+/* CONTENT
+-------------------------------------------------------------------------- */
+#center {
+	background:#E6E9EC;
+	}
+h2 {
+	color:#00649C;
+	font-size:2em;
+	line-height:1.2em;
+	margin:35px 0 5px;
+	text-transform:uppercase;
+	}
+h3.day {
+	background:#fff;
+	color:#002040;
+	font-size:1.3em;
+	line-height:1em;
+	margin:25px 0 10px;
+	}
+ul.dots {
+	line-height:2em;
+	list-style:circle;
+	margin-left:2.5em;
+	}
+a:link { color:#008082; }
+a:visited { color:#404040; }
+a:hover {
+	border-bottom:1px dashed #00649C;
+	color:#00649C;
+	text-decoration:none;
+	}
+a:active { color:#008082; }
+tr:hover {
+	background:#fff;
+	}
+div.sharkweek span.early, div.sharkweek div.early, div.late span.early, div.late div.early { display:none; }
+div.early span.sharkweek, div.early div.sharkweek, div.late span.sharkweek, div.late div.sharkweek { display:none; }
+div.early span.late, div.early div.late, div.sharkweek span.late, div.sharkweek div.late { display:none; }
+div.late span.notlate, div.late div.notlate { display:none; }
+
+/* SIDEBARS
+-------------------------------------------------------------------------- */
+#left {
+	}
+#flickr_badge_uber_wrapper {
+	background-color:#008082;
+	color:#E6E9EC;
+	margin-top:25px;
+	}
+#flickr_badge_uber_wrapper h2 {
+	color:#fff;
+	}
+#flickr_www {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#3993ff;
+	}
+#flickr_badge_uber_wrapper p a:link,
+#flickr_badge_uber_wrapper p a:visited,
+#flickr_badge_uber_wrapper p a:hover,
+#flickr_badge_uber_wrapper p a:active {
+	border-bottom:1px dashed #fff;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	}
+.flickr_badge_image img {
+	border:0;
+	padding:10px 30px;
+	}
+#flickr_badge_uber_wrapper a img {
+	border:0;
+	}
+#right {
+	}
+#sharkwater, #scaredfor, #swwidget { margin-top:25px; }
+
+/* FOOTER
+-------------------------------------------------------------------------- */
+#footer {
+	color:#404040;
+	padding:25px 10px;
+	text-align:right;
+	}
