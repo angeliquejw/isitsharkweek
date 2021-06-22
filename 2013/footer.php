@@ -1,6 +1,0 @@
-		<footer>
-			<p><a href="#content">&uarr; top</a>&nbsp;&nbsp;|&nbsp;&nbsp;A product of too much time &amp; coffee&nbsp;&nbsp;|&nbsp;&nbsp;2009-2013&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:hammerhead@isitsharkweek.com">Contact</a></p>
-         <p><a href="http://angeliqueweger.com/?utm_source=sharkweek&utm_medium=sharkweekfooter&utm_campaign=sharkweekrefs" target="_blank">Web site design &amp; development by Ang&eacute;lique Weger</a></p>
-			<hr />
-			<p id="disclaimer">This is a Shark Week fan site and not affilliated with Discovery Channel, Discovery Networks, Discovery Communications, Shark Week or any of the programming of those entities. Shark Week is a trademark of Discovery Communications. All trademarks and copyrighted materials on this site are the property of their respective owners. The intent of this site is not to to infringe on any copyrights, but rather to serve as a resource for fans of sharks and Shark Week. If you wish to see pictures or content on this website removed, please specify which ones and allow time to remove these before taking any further action. If you have any further questions or concerns, please <a href="mailto:hammerhead@isitsharkweek.com?subject=Copyright/TM_notice">contact the site owner via email</a>.
-		</footer>

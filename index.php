@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>IS IT SHARK WEEK? #SHARKWEEK 2020</title>
-  <meta name="description" content="Information about Shark Week, including the 2020 Shark Week schedule from the Discovery Channel.">
-  <meta name="keywords" content="shark week, shark week schedule, shark week 2020 schedule, shark week 2020, shark week tv, is it shark week, when is shark week, shark, sharks">
+  <title>IS IT SHARK WEEK? #SHARKWEEK 2021</title>
+  <meta name="description" content="Information about Shark Week, including the 2021 Shark Week schedule from the Discovery Channel.">
+  <meta name="keywords" content="shark week, shark week schedule, shark week 2021 schedule, shark week 2021, shark week tv, is it shark week, when is shark week, shark, sharks">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="IS IT SHARK WEEK?">
   <meta property="og:description" content="You know you've asked yourself this uberimportant question: OMG IS IT SHARK WEEK? We have the answer. Never miss a moment of SHARK WEEK again.">
@@ -37,8 +37,8 @@
 </head>
 <?php
       date_default_timezone_set('America/New_York');
-      $SWstart = '2020-08-09';
-      $SWend = '2020-08-16';
+      $SWstart = '2021-07-11';
+      $SWend = '2021-07-18';
       if(strtotime('now') < strtotime($SWstart)){
         $status = 'early';
       } elseif(strtotime('now') > strtotime($SWend)){
@@ -48,7 +48,7 @@
 } ?>
   <body class="<?php if($status == 'early'){ echo 'isEarly'; } elseif($status == 'late'){ echo 'isLate'; } else { echo 'isSW'; } ?>">
     <!--[if lt IE 9]>
-      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a>.</p>
       <![endif]-->
     <div class="siteWrapper">
       <?php

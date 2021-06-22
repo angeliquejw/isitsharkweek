@@ -5,7 +5,7 @@
       <div class="countdownNum">
         <strong>
           <?php
-	    // $SWstart is defined in index.php
+      	    // $SWstart is defined in index.php
             $daystil = ceil((strtotime($SWstart) - strtotime('now'))/(24 * 60 * 60));
             echo $daystil;
           ?>
@@ -24,15 +24,11 @@
   <nav id="content" class="siteNav optionsList fadeIn">
     <ul>
       <li><a href="#share">Share The Countdown</a></li>
-      <!--<li><a href="#schedule">Check out the 2018 Shark Week Schedule</a></li>-->
       <li><a href="#learn">Learn About Sharks</a></li>
-      <!--<li><a href="#donate">Donate to a Conservation Charity</a></li>-->
     </ul>
   </nav>
 </header>
-<!-- include("schedule.php"); -->
 <main>
   <?php include("share.php"); ?>
   <?php include("learn.php"); ?>
-  <!-- include("donate.php"); -->
 </main>

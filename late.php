@@ -12,7 +12,6 @@
 	<nav id="content" class="siteNav optionsList fadeIn">
 		<ul>
 			<li><a href="#learn">Learn About Sharks</a></li>
-			<!--<li><a href="#donate">Donate to a Conservation Charity</a></li>-->
 			<li><a href="#share">Share IsItSharkWeek</a></li>
 		</ul>
 	</nav>
@@ -20,5 +19,4 @@
 <main>
 	<?php include("share.php"); ?>
 	<?php include("learn.php"); ?>
-	<!-- include("donate.php"); -->
 </main>

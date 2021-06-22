@@ -1,9 +1,0 @@
-.fancyBorder {
-    margin: 0 auto 90px;
-    width: 80%;
-    max-width: 375px;
-    div {
-        @include border-step4(8px, $red, $aqua);
-        padding: 36px 30px;
-    }
-}
